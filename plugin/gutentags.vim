@@ -25,7 +25,7 @@ let g:gutentags_background_update = get(g:, 'gutentags_background_update', 1)
 let g:gutentags_pause_after_update = get(g:, 'gutentags_pause_after_update', 0)
 let g:gutentags_enabled = get(g:, 'gutentags_enabled', 1)
 let g:gutentags_enabled_user_func = get(g:, 'gutentags_enabled_user_func', '')
-let g:gutentags_modules = get(g:, 'gutentags_modules', ['ctags'])
+let g:gutentags_modules = get(g:, 'gutentags_modules', ['ctags', 'cscope'])
 
 let g:gutentags_add_default_project_roots = get(g:, 'gutentags_add_default_project_roots', 1)
 let g:gutentags_project_root = get(g:, 'gutentags_project_root', [])
